@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <section id="section1">
+      <div class="upperbox">
+        <div class="photo">
+          <img id="photo1" src="/img/file.jpg" alt="Haotian Liu Photo" />
+        </div>
+        <div class="name">
+          <h2>HAOTIAN LIU</h2>
+          <h4>Software Engineer</h4>
+        </div>
+        <div class="info">
+          <p>
+            <strong>Address: </strong> 474 Warren St, Jersey City, NJ, 07302
+          </p>
+          <p><strong>Phone: </strong>(424)-407-5169</p>
+          <p>
+            <strong>Email: </strong
+            ><a href="mailto:haotianliu@g.ucla.edu">haotianliu@g.ucla.edu</a>
+          </p>
+          <p>
+            <strong>Linkedin: </strong>
+            <a
+              href="https://www.linkedin.com/in/haotian-liu-92a474207/"
+              target="_blank"
+              >Link</a
+            >
+          </p>
+        </div>
+      </div>
+
+      <div class="lowerbox">
+        <p>
+          My name is Haotian Liu. I graduated from Cornell University with M.S.
+          in Biostatistics and Data Science. Since college, I has always been
+          interested in computer science. I have taken numerous CS courses
+          during undergraduate and graduate studies. Now, I am studying at Per
+          Scholas in the software engineering cohort. I am excited to launch a
+          career in computer science upon graduating from Per Scholas.
+        </p>
+      </div>
+    </section>
+    <hr style="width: 90%" />
+
+    <!-- section 2 has left and right columns -->
+    <section id="section2">
+      <div class="leftColumn">
+        <div class="project">
+          <h2 class="container">PROJECTS</h2>
+          <h4>Job Posting Board</h4> 
+          <button id="myBtn">Learn More</button>
+          <ul>
+            <li>
+              Developed and deployed a job posting website utilizing PostgreSQL,
+              Prisma, and NEXT.js framework for seamless job browsing and
+              posting capabilities. Implemented job post validation using React
+              Hook Form and Zod, ensuring data accuracy and reliability.
+            </li>
+            <li>
+              Created an intuitive filter section for users to refine search
+              results based on keywords and key parameters. Constructed an admin
+              dashboard facilitating efficient approval or deletion of job
+              postings, ensuring only validated posts are visible
+            </li>
+          </ul>
+
+          <h4>Forum Website</h4>
+          <ul>
+            <li>
+              Built a simple forum website using Typescript, NEXT.js framework
+              that allows users to login, browse and make topics, posts, and
+              commenting. Set up corresponding Sqlite database using Prisma.
+            </li>
+            <li>
+              Implemented login through Github feature using Oauth. Optimized
+              website performance by assigning static and SSR webpages.
+            </li>
+          </ul>
+
+          <h4>IBM HR Analytics Employee Attrition</h4>
+          <ul>
+            <li>
+              Conducted data wrangling and exploratory data analysis using
+              Python Pandas and NumPy libraries to identify patterns and
+              relationship in 1400 entries of employee attrition data. Solved
+              imbalanced data issue using random oversampling.
+            </li>
+            <li>
+              Applied machine learning algorithms including logistic regression
+              and LightGBM to develop predictive models for employee attrition
+              classification, achieving AUC of 88%.
+            </li>
+          </ul>
+
+          <h4>Taobao User Behavior Data Analysis</h4>
+          <ul>
+            <li>
+              Leveraged PostgreSQL to conduct in-depth analysis of a large
+              dataset comprising 100 million user interactions on the Taobao
+              e-commerce platform.
+            </li>
+            <li>
+              Explored dimensions such as user purchase, item purchase, and
+              funnel analysis to understand user behaviors. Visualized results
+              using Tableau.
+            </li>
+            <li>
+              Classified users into four distinct categories based on purchase
+              frequency and recency, enabling targeted marketing and engagement
+              strategies. Queried top selling items for potential
+              recommendation.
+            </li>
+          </ul>
+        </div>
+        <div class="education"></div>
+      </div>
+      <div class="rightColumn">
+        <h3>PROGRAMMING SKILLS</h3>
+        <img class="svg" src="/img/html-5-svgrepo-com.svg" alt="Html5" />
+        <img class="svg" src="/img/css-svgrepo-com.svg" alt="Css3" />
+        <img
+          class="svg"
+          src="/img/javascript-svgrepo-com.svg"
+          alt="Javascript"
+        />
+        <img class="svg" src="/img/react-svgrepo-com.svg" alt="React" />
+        <img class="svg" src="/img/python-svgrepo-com.svg" alt="Python" />
+        <img src="/img/rstudio-svgrepo-com.svg" alt="Rstudio" class="svg" />
+        <img src="/img/mysql-svgrepo-com.svg" alt="Mysql" class="svg" />
+        <h3>VISUALIZATION SKILLS</h3>
+        <img src="/img/tableau-svgrepo-com.svg" alt="Tableau" class="svg" />
+        <img
+          src="/img/excel-file-type-svgrepo-com.svg"
+          alt="Excel"
+          class="svg"
+        />
+        <h3>CONTACT ME</h3>
+        <a
+          href="https://www.linkedin.com/in/haotian-liu-92a474207/"
+          target="_blank"
+        >
+          <img src="/img/linkedin-svgrepo-com.svg" alt="Linkedin" class="svg" />
+        </a>
+        <a
+          href="https://www.instagram.com/ht_silhouette?igsh=MWpzaHlhbmMwemZiaQ%3D%3D&utm_source=qr"
+          target="_blank"
+        >
+          <img
+            src="/img/instagram-svgrepo-com.svg"
+            alt="Instagram"
+            class="svg"
+          />
+        </a>
+        <a href="https://github.com/phantomhtl" target="_blank">
+          <img src="/img/github-142-svgrepo-com.svg" alt="Github" class="svg" />
+        </a>
+      </div>
+    </section>
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+      <!-- Modal content -->
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <p>To learn more about this project. Visit this <a target="_blank" href="https://job-board-htl.vercel.app/">link</a> here.</p>
+      </div>
+    </div>
+    <script src="app.js" async defer></script>
+  </body>
+</html>
